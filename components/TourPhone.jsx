@@ -20,7 +20,15 @@ const TourPhone = (props) => {
         </div>
         <div className="rating">({props.tour.external_ui.rating})</div>
       </div>
-      <div className="content">{props.tour.external_ui.introduction}</div>
+      <div className="content">
+        {props.tour.external_ui.introduction
+          .split(" ")
+          .slice(0, 60)
+          .reduce((p, c) => `${p} ${c}`, "")}
+        {props.tour.external_ui.introduction.split(" ").length > 60
+          ? "\t....."
+          : ""}
+      </div>
       <div className="price_container">
         <span
           style={{

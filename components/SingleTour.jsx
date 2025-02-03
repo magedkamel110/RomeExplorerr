@@ -207,6 +207,9 @@ const TourPage = ({ tour_data, totaltours }) => {
                   .split(" ")
                   .slice(0, 55)
                   .reduce((p, c) => `${p} ${c}`, "")}
+                {tour_data.external_ui.introduction.split(" ").length > 55
+                  ? "\t......"
+                  : ""}
               </p>
               <div className="rating_section">
                 <Hearts count={tour_data.external_ui.stars} />
@@ -241,9 +244,11 @@ const TourPage = ({ tour_data, totaltours }) => {
           </section>
           <div className="heading">Full Description</div>
           <details className="fulldescription_container">
-            <summary>{tour_data.internal_ui.description.full_description.title}</summary>
+            <summary>
+              {tour_data.internal_ui.description.full_description.title}
+            </summary>
             <div class="content">
-            {tour_data.internal_ui.description.full_description.content}
+              {tour_data.internal_ui.description.full_description.content}
             </div>
           </details>
           <div className="heading">Things To Know</div>

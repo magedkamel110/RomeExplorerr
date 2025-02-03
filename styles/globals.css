@@ -243,7 +243,6 @@ div.footer_visas_container > img {
 
 .tour_container > .section2 > .content {
   font-size: 0.875rem;
-  max-height: 128px;
   overflow-y: hidden;
   color: var(--color-lightgrey);
 }
@@ -393,7 +392,6 @@ div.footer_visas_container > img {
   font-size: 12px;
   line-height: 1.32;
   letter-spacing: 0.01071em;
-  max-height: 114px;
 }
 
 .tour_container_phone > .price_container {
@@ -1075,10 +1073,6 @@ details[open] summary::after {
   .offers_container > .offer > .content {
     width: 300px;
   }
-  .tour_img_view > .inner_content > .content {
-    max-height: 120px;
-    overflow-y: hidden;
-  }
   .tour_container {
     width: 80%;
   }
@@ -1248,7 +1242,6 @@ details[open] summary::after {
   }
   .tour_container > .section2 > .content {
     font-size: 0.65rem;
-    max-height: 125px;
     overflow-y: hidden;
   }
   .tour_container > .section2 > .heading {

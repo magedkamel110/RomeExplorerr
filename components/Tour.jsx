@@ -56,7 +56,14 @@ const Tour = (props) => {
       </div>
       <div className="section2">
         <div className="heading">{props.tour.external_ui.title}</div>
-        <div className="content">{props.tour.external_ui.introduction}</div>
+        <div className="content">
+          {props.tour.external_ui.introduction
+            .split(" ")
+            .slice(0, 60)
+            .reduce((p, c) => `${p} ${c}`, "")}
+            {props.tour.external_ui.introduction
+            .split(" ").length > 60 ? "\t....." : ""}
+        </div>
         <div className="stars">
           <Hearts count={props.tour.external_ui.stars} />
           <div>({props.tour.external_ui.rating})</div>
