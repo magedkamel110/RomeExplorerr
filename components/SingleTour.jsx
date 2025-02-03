@@ -241,25 +241,9 @@ const TourPage = ({ tour_data, totaltours }) => {
           </section>
           <div className="heading">Full Description</div>
           <details className="fulldescription_container">
-            <summary>Read More about Colloums</summary>
+            <summary>{tour_data.internal_ui.description.full_description.title}</summary>
             <div class="content">
-              Start your day of discovery by meeting your guide outside the
-              Colosseum at your selected departure time. Discover the site that
-              over the centuries has become the symbol of the city. Learn about
-              the Colosseum’s rich history and from your informative guide, hear
-              tales of gladiators, slaves, and ferocious animals. Get the
-              opportunity to explore all the areas of the Colosseum and gain
-              exclusive access to the sites off-limits areas. Numbers are
-              limited to 25 people per group. Walk through the underground
-              chambers and see where wild animals were caged, the secret
-              passages of the Gladiators, and marvel at how animals were
-              transported to the Arena’s main level. After your tour of the
-              Colosseum, you will explore the heart of the ancient city
-              discovering the Roman Forum area. Walk among temples, meeting
-              places, and triumphal arches. Discover the Forum, the area that
-              witnessed the birth and development of Roman civilization, and the
-              political, social, religious, and economic heart of the Roman
-              Republic.
+            {tour_data.internal_ui.description.full_description.content}
             </div>
           </details>
           <div className="heading">Things To Know</div>
