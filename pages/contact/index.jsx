@@ -22,7 +22,7 @@ const Contact = () => {
       ),
     },
     {
-      content: "+390689130114",
+      content: "+39",
       svg: (
         <svg
           stroke="currentColor"
