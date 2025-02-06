@@ -4,7 +4,7 @@ import React from "react";
 const Contact = () => {
   const sections = [
     {
-      content: "+393246968498",
+      content: "+39",
       svg: (
         <svg
           stroke="currentColor"
@@ -40,7 +40,7 @@ const Contact = () => {
       ),
     },
     {
-      content: "tours@toursofrome.info",
+      content: "tours@romeexplorers.site",
       svg: (
         <svg
           stroke="currentColor"
