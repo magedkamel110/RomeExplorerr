@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Document() {
   return (

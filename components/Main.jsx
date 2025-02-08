@@ -19,7 +19,7 @@ export const Main = (props) => {
     <>
       <div className="header_part_1_flag"></div>
       <div className="header_part_2">
-        <img src="/header_1_img.avif" alt="" />
+        <img src="/header-new-new.jpeg" alt="" />
         <div className="header_text">
           Experience Rome with
           <div className="header_text_inner">Rome Explorers</div>
@@ -90,3 +90,4 @@ export const Main = (props) => {
     </>
   );
 };
+
