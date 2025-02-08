@@ -12,3 +12,15 @@ export default function App({ Component, pageProps }: AppProps) {
     </GlobalProvider>
   );
 }
+import CustomAnalyticsDocument from './custom-analytics';
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <CustomAnalyticsDocument />
+      <Component {...pageProps} />
+    </>
+  );
+}
+
+export default MyApp;
