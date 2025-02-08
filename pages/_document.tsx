@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <GoogleTagManager gtmId="GTM-5JR96XP2" />
         <link rel="icon" type="image/png" href="/main_logo.png" />
         <link
           rel="stylesheet"
@@ -23,7 +24,14 @@ export default function Document() {
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
       </Head>
       <body className="antialiased">
-      <GoogleTagManager gtmId="GTM-KKGCG9V7" />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5JR96XP2"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
         <Main />
         <NextScript />
       </body>
