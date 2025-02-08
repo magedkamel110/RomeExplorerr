@@ -42,12 +42,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       </Head>
       <body className="antialiased">
-        <Main />
-        <NextScript />
-<!-- Google Tag Manager (noscript) -->
+        <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JR96XP2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+        <Main />
+        <NextScript />
  </body>
     </Html>
   );
