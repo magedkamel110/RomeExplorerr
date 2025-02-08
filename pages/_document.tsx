@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <GoogleTagManager gtmId="GTM-5JR96XP2" />
+        <GoogleTagManager gtmId="GTM-TMJKJLMZ" />
         <link rel="icon" type="image/png" href="/main_logo.png" />
         <link
           rel="stylesheet"
@@ -26,7 +26,7 @@ export default function Document() {
       <body className="antialiased">
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-5JR96XP2"
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TMJKJLMZ"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
