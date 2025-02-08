@@ -23,7 +23,7 @@ export default function Document() {
         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
       </Head>
       <body className="antialiased">
-      <GoogleTagManager gtmId="GTM-5JR96XP2" />
+      <GoogleTagManager gtmId="GTM-KKGCG9V7" />
         <Main />
         <NextScript />
       </body>
