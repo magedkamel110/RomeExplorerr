@@ -1,11 +1,11 @@
-"use client"
+"use client";
 import React from "react";
 import TopExtention from "./TopExtention";
 
-function Schedule({ title, date, classnames }) {
+function Schedule({ price, title, date, classnames }) {
   return (
     <div className={`schedule ${classnames}`}>
-      <TopExtention content="starting from 120€" classnames="blue" />
+      <TopExtention content={`starting from ${price}€`} classnames="blue" />
       <div className="title">{title}</div>
       <div className="date">
         <svg

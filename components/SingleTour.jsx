@@ -304,6 +304,7 @@ const TourPage = ({ tour_data, totaltours }) => {
           <div id="map" className="meeting_point"></div>
         </section>
         <Schedule
+          price={tour_data.external_ui.price}
           classnames="labtob"
           title={tour_data.external_ui.title}
           date={tour_data.date}
