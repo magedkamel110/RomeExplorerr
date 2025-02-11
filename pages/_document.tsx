@@ -6,15 +6,16 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16862142591"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-16862142591');
-</script>
+  {/* Google tag (gtag.js) */}
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16862142591"></script>
+  <script>
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16862142591');
+    `}
+  </script>
         <GoogleTagManager gtmId="GTM-5JR96XP2" />
         <link rel="icon" type="image/png" href="/main_logo.png" />
         <link
