@@ -7,6 +7,21 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id=AW-16862142591"
+/>
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16862142591');
+    `,
+  }}
+/>
+
+        <script
   dangerouslySetInnerHTML={{
     __html: `
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
